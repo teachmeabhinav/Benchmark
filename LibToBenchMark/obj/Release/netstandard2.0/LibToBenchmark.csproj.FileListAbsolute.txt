@@ -1,0 +1,9 @@
+D:\Project\RND\DotNetConceptOfTheWeek\05_BenchmarkDotNet\BM\LibToBenchMark\bin\Release\netstandard2.0\LibToBenchmark.deps.json
+D:\Project\RND\DotNetConceptOfTheWeek\05_BenchmarkDotNet\BM\LibToBenchMark\bin\Release\netstandard2.0\LibToBenchmark.dll
+D:\Project\RND\DotNetConceptOfTheWeek\05_BenchmarkDotNet\BM\LibToBenchMark\bin\Release\netstandard2.0\LibToBenchmark.pdb
+D:\Project\RND\DotNetConceptOfTheWeek\05_BenchmarkDotNet\BM\LibToBenchMark\obj\Release\netstandard2.0\LibToBenchmark.csprojAssemblyReference.cache
+D:\Project\RND\DotNetConceptOfTheWeek\05_BenchmarkDotNet\BM\LibToBenchMark\obj\Release\netstandard2.0\LibToBenchmark.AssemblyInfoInputs.cache
+D:\Project\RND\DotNetConceptOfTheWeek\05_BenchmarkDotNet\BM\LibToBenchMark\obj\Release\netstandard2.0\LibToBenchmark.AssemblyInfo.cs
+D:\Project\RND\DotNetConceptOfTheWeek\05_BenchmarkDotNet\BM\LibToBenchMark\obj\Release\netstandard2.0\LibToBenchmark.csproj.CoreCompileInputs.cache
+D:\Project\RND\DotNetConceptOfTheWeek\05_BenchmarkDotNet\BM\LibToBenchMark\obj\Release\netstandard2.0\LibToBenchmark.dll
+D:\Project\RND\DotNetConceptOfTheWeek\05_BenchmarkDotNet\BM\LibToBenchMark\obj\Release\netstandard2.0\LibToBenchmark.pdb

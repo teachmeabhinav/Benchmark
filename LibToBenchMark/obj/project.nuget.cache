@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "xzwEZgJPNLDOMDBTzPCX7bUoQhq+BI/u9HnSepJZzIeHjbneZWsxxMvHoAO5aeX0Emc4dlVUyA1YPLNZeDsqDA==",
+  "success": true,
+  "projectFilePath": "D:\\Project\\RND\\DotNetConceptOfTheWeek\\05_BenchmarkDotNet\\BM\\LibToBenchMark\\LibToBenchmark.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\abhinav.mishra\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\abhinav.mishra\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
