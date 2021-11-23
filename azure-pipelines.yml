@@ -21,7 +21,7 @@ steps:
   inputs:
     restoreSolution: '$(solution)'
 
-# -
+
 - task: UseDotNet@2
   inputs:
     packageType: 'sdk'
@@ -31,3 +31,32 @@ steps:
   displayName: 'dotnet build'
   inputs:
     command: 'build'
+- task: PublishPipelineArtifact@1
+  inputs:
+    targetPath: $(System.DefaultWorkingDirectory)/bin/Benchmarkdll
+    artifactName: Benchmarkdll
+# Azure file copy
+# Copy files to Azure Blob Storage or virtual machines
+# Azure file copy
+# Copy files to Azure Blob Storage or virtual machines
+- task: AzureFileCopy@4
+  inputs:
+    sourcePath: $(System.DefaultWorkingDirectory)/bin/Benchmarkdll
+    azureSubscription: 8639aadc-9332-43df-ac5a-5e75d42cb6c0
+    destination: azureVMs
+    storage: c:\drake
+    #containerName: # Required when destination == AzureBlob
+    #blobPrefix: # Optional
+    resourceGroup: Devops
+    resourceFilteringMethod: 'machineNames' 
+    machineNames: abhinavvm
+    vmsAdminUserName: mcaabhinav
+    vmsAdminPassword: sqlserver@k21A
+    #targetPath: # Required when destination == AzureVMs
+    #additionalArgumentsForBlobCopy: # Optional
+    #additionalArgumentsForVMCopy: # Optional
+    #enableCopyPrerequisites: false # Optional
+    #copyFilesInParallel: true # Optional
+    cleanTargetBeforeCopy: true # Optional
+    #skipCACheck: true # Optional
+    #sasTokenTimeOutInMinutes: # Optional
