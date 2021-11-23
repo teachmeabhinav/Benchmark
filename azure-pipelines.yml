@@ -50,7 +50,7 @@ steps:
     sourcePath: $(System.DefaultWorkingDirectory)/Benchmarkdll
     azureSubscription: MyAzureSPConnection
     destination: azureVMs
-    storage: ''
+    storage: abhinavdrake
     #containerName: # Required when destination == AzureBlob
     #blobPrefix: # Optional
     resourceGroup: Devops
