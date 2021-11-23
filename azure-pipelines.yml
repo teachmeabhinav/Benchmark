@@ -42,7 +42,7 @@ steps:
 - task: AzureFileCopy@4
   inputs:
     sourcePath: $(System.DefaultWorkingDirectory)/bin/Benchmarkdll
-    azureSubscription: 8639aadc-9332-43df-ac5a-5e75d42cb6c0
+    azureSubscription: MyAzureSPConnection
     destination: azureVMs
     storage: c:\drake
     #containerName: # Required when destination == AzureBlob
