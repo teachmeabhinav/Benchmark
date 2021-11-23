@@ -50,7 +50,7 @@ steps:
     sourcePath: $(System.DefaultWorkingDirectory)/Benchmarkdll
     azureSubscription: MyAzureSPConnection
     destination: azureVMs
-    storage: c:\drake
+    storage: 
     #containerName: # Required when destination == AzureBlob
     #blobPrefix: # Optional
     resourceGroup: Devops
@@ -58,7 +58,7 @@ steps:
     machineNames: abhinavvm
     vmsAdminUserName: mcaabhinav
     vmsAdminPassword: sqlserver@k21A
-    #targetPath: # Required when destination == AzureVMs
+    targetPath: c:\drake
     #additionalArgumentsForBlobCopy: # Optional
     #additionalArgumentsForVMCopy: # Optional
     #enableCopyPrerequisites: false # Optional
