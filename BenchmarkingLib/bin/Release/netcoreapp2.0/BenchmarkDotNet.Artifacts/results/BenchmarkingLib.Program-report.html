@@ -16,16 +16,16 @@
 BenchmarkDotNet=v0.10.12, OS=Windows 10.0.18363
 Intel Core i5-10210U CPU 1.60GHz, 1 CPU, 8 logical cores and 4 physical cores
 .NET Core SDK=5.0.203
-  [Host]     : .NET Core 2.1.28 (Framework 4.6.30015.01), 64bit RyuJIT
+  [Host]     : .NET Core 2.1.28 (Framework 4.6.30015.01), 64bit RyuJIT  [AttachedDebugger]
   DefaultJob : .NET Core 2.1.28 (Framework 4.6.30015.01), 64bit RyuJIT
 </code></pre>
 <pre><code></code></pre>
 
 <table>
-<thead><tr><th>        Method</th><th>Mean</th><th>Error</th><th>StdDev</th>
+<thead><tr><th>        Method</th><th>Mean</th><th>Error</th><th>StdDev</th><th>Gen 0</th><th>Gen 1</th><th>Allocated</th>
 </tr>
-</thead><tbody><tr><td>CalculateWithLinq</td><td>9.655 ms</td><td>0.3261 ms</td><td>0.9461 ms</td>
-</tr><tr><td>CalculateWithNonLinq</td><td>16.675 ms</td><td>0.7679 ms</td><td>2.2643 ms</td>
+</thead><tbody><tr><td>CalculateWithLinq</td><td>6.181 ms</td><td>0.1185 ms</td><td>0.1050 ms</td><td>242.1875</td><td>78.1250</td><td>1168.34 KB</td>
+</tr><tr><td>CalculateWithNonLinq</td><td>9.269 ms</td><td>0.1416 ms</td><td>0.1325 ms</td><td>109.3750</td><td>31.2500</td><td>434.43 KB</td>
 </tr></tbody></table>
 </body>
 </html>

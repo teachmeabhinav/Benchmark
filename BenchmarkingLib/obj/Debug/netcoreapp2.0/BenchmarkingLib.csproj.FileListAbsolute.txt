@@ -14,3 +14,19 @@ D:\Project\RND\DotNetConceptOfTheWeek\05_BenchmarkDotNet\BM\BenchmarkingLib\obj\
 D:\Project\RND\DotNetConceptOfTheWeek\05_BenchmarkDotNet\BM\BenchmarkingLib\obj\Debug\netcoreapp2.0\BenchmarkingLib.dll
 D:\Project\RND\DotNetConceptOfTheWeek\05_BenchmarkDotNet\BM\BenchmarkingLib\obj\Debug\netcoreapp2.0\BenchmarkingLib.pdb
 D:\Project\RND\DotNetConceptOfTheWeek\05_BenchmarkDotNet\BM\BenchmarkingLib\obj\Debug\netcoreapp2.0\BenchmarkingLib.genruntimeconfig.cache
+D:\Project\RND\AZ Bench Mark\Benchmark\BenchmarkingLib\bin\Debug\netcoreapp2.0\MSFT.csv
+D:\Project\RND\AZ Bench Mark\Benchmark\BenchmarkingLib\bin\Debug\netcoreapp2.0\BenchmarkingLib.deps.json
+D:\Project\RND\AZ Bench Mark\Benchmark\BenchmarkingLib\bin\Debug\netcoreapp2.0\BenchmarkingLib.runtimeconfig.json
+D:\Project\RND\AZ Bench Mark\Benchmark\BenchmarkingLib\bin\Debug\netcoreapp2.0\BenchmarkingLib.runtimeconfig.dev.json
+D:\Project\RND\AZ Bench Mark\Benchmark\BenchmarkingLib\bin\Debug\netcoreapp2.0\BenchmarkingLib.dll
+D:\Project\RND\AZ Bench Mark\Benchmark\BenchmarkingLib\bin\Debug\netcoreapp2.0\BenchmarkingLib.pdb
+D:\Project\RND\AZ Bench Mark\Benchmark\BenchmarkingLib\bin\Debug\netcoreapp2.0\LibToBenchmark.dll
+D:\Project\RND\AZ Bench Mark\Benchmark\BenchmarkingLib\bin\Debug\netcoreapp2.0\LibToBenchmark.pdb
+D:\Project\RND\AZ Bench Mark\Benchmark\BenchmarkingLib\obj\Debug\netcoreapp2.0\BenchmarkingLib.csprojAssemblyReference.cache
+D:\Project\RND\AZ Bench Mark\Benchmark\BenchmarkingLib\obj\Debug\netcoreapp2.0\BenchmarkingLib.AssemblyInfoInputs.cache
+D:\Project\RND\AZ Bench Mark\Benchmark\BenchmarkingLib\obj\Debug\netcoreapp2.0\BenchmarkingLib.AssemblyInfo.cs
+D:\Project\RND\AZ Bench Mark\Benchmark\BenchmarkingLib\obj\Debug\netcoreapp2.0\BenchmarkingLib.csproj.CoreCompileInputs.cache
+D:\Project\RND\AZ Bench Mark\Benchmark\BenchmarkingLib\obj\Debug\netcoreapp2.0\BenchmarkingLib.csproj.CopyComplete
+D:\Project\RND\AZ Bench Mark\Benchmark\BenchmarkingLib\obj\Debug\netcoreapp2.0\BenchmarkingLib.dll
+D:\Project\RND\AZ Bench Mark\Benchmark\BenchmarkingLib\obj\Debug\netcoreapp2.0\BenchmarkingLib.pdb
+D:\Project\RND\AZ Bench Mark\Benchmark\BenchmarkingLib\obj\Debug\netcoreapp2.0\BenchmarkingLib.genruntimeconfig.cache

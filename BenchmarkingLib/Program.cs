@@ -10,7 +10,7 @@ using LibToBenchmark;
 namespace BenchmarkingLib
 {
 	//[CoreJob]
-	//[MemoryDiagnoser]
+	[MemoryDiagnoser]
 	//[DisassemblyDiagnoser(printAsm: true, printSource: true, printIL: true)]
 	public class Program
 	{

@@ -6,3 +6,11 @@ D:\Project\RND\DotNetConceptOfTheWeek\05_BenchmarkDotNet\BM\LibToBenchMark\obj\D
 D:\Project\RND\DotNetConceptOfTheWeek\05_BenchmarkDotNet\BM\LibToBenchMark\obj\Debug\netstandard2.0\LibToBenchmark.csproj.CoreCompileInputs.cache
 D:\Project\RND\DotNetConceptOfTheWeek\05_BenchmarkDotNet\BM\LibToBenchMark\obj\Debug\netstandard2.0\LibToBenchmark.dll
 D:\Project\RND\DotNetConceptOfTheWeek\05_BenchmarkDotNet\BM\LibToBenchMark\obj\Debug\netstandard2.0\LibToBenchmark.pdb
+D:\Project\RND\AZ Bench Mark\Benchmark\LibToBenchMark\bin\Debug\netstandard2.0\LibToBenchmark.deps.json
+D:\Project\RND\AZ Bench Mark\Benchmark\LibToBenchMark\bin\Debug\netstandard2.0\LibToBenchmark.dll
+D:\Project\RND\AZ Bench Mark\Benchmark\LibToBenchMark\bin\Debug\netstandard2.0\LibToBenchmark.pdb
+D:\Project\RND\AZ Bench Mark\Benchmark\LibToBenchMark\obj\Debug\netstandard2.0\LibToBenchmark.AssemblyInfoInputs.cache
+D:\Project\RND\AZ Bench Mark\Benchmark\LibToBenchMark\obj\Debug\netstandard2.0\LibToBenchmark.AssemblyInfo.cs
+D:\Project\RND\AZ Bench Mark\Benchmark\LibToBenchMark\obj\Debug\netstandard2.0\LibToBenchmark.csproj.CoreCompileInputs.cache
+D:\Project\RND\AZ Bench Mark\Benchmark\LibToBenchMark\obj\Debug\netstandard2.0\LibToBenchmark.dll
+D:\Project\RND\AZ Bench Mark\Benchmark\LibToBenchMark\obj\Debug\netstandard2.0\LibToBenchmark.pdb

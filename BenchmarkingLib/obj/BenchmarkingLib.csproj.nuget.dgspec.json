@@ -1,38 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\RND\\DotNetConceptOfTheWeek\\05_BenchmarkDotNet\\BM\\BenchmarkingLib\\BenchmarkingLib.csproj": {}
+    "D:\\Project\\RND\\AZ Bench Mark\\Benchmark\\BenchmarkingLib\\BenchmarkingLib.csproj": {}
   },
   "projects": {
-    "D:\\Project\\RND\\DotNetConceptOfTheWeek\\05_BenchmarkDotNet\\BM\\BenchmarkingLib\\BenchmarkingLib.csproj": {
+    "D:\\Project\\RND\\AZ Bench Mark\\Benchmark\\BenchmarkingLib\\BenchmarkingLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\RND\\DotNetConceptOfTheWeek\\05_BenchmarkDotNet\\BM\\BenchmarkingLib\\BenchmarkingLib.csproj",
+        "projectUniqueName": "D:\\Project\\RND\\AZ Bench Mark\\Benchmark\\BenchmarkingLib\\BenchmarkingLib.csproj",
         "projectName": "BenchmarkingLib",
-        "projectPath": "D:\\Project\\RND\\DotNetConceptOfTheWeek\\05_BenchmarkDotNet\\BM\\BenchmarkingLib\\BenchmarkingLib.csproj",
+        "projectPath": "D:\\Project\\RND\\AZ Bench Mark\\Benchmark\\BenchmarkingLib\\BenchmarkingLib.csproj",
         "packagesPath": "C:\\Users\\abhinav.mishra\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\RND\\DotNetConceptOfTheWeek\\05_BenchmarkDotNet\\BM\\BenchmarkingLib\\obj\\",
+        "outputPath": "D:\\Project\\RND\\AZ Bench Mark\\Benchmark\\BenchmarkingLib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\abhinav.mishra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.0"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\New folder\\BD.Core.Analyzers": {},
+          "D:\\Project\\Drake\\Drake-Tools-GlobalLogic\\Packages": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://packagesource": {},
           "https://pkgs.dev.azure.com/danghoffman/Drake-TaxCalc-Pipeline/_packaging/Drake-Migration-Nuget-Feed/nuget/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.0": {
-            "targetAlias": "netcoreapp2.0",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Project\\RND\\DotNetConceptOfTheWeek\\05_BenchmarkDotNet\\BM\\LibToBenchMark\\LibToBenchmark.csproj": {
-                "projectPath": "D:\\Project\\RND\\DotNetConceptOfTheWeek\\05_BenchmarkDotNet\\BM\\LibToBenchMark\\LibToBenchmark.csproj"
+              "D:\\Project\\RND\\AZ Bench Mark\\Benchmark\\LibToBenchMark\\LibToBenchmark.csproj": {
+                "projectPath": "D:\\Project\\RND\\AZ Bench Mark\\Benchmark\\LibToBenchMark\\LibToBenchmark.csproj"
               }
             }
           }
@@ -44,18 +43,12 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.0": {
-          "targetAlias": "netcoreapp2.0",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "BenchmarkDotNet": {
               "target": "Package",
               "version": "[0.10.12, )"
-            },
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.0, )",
-              "autoReferenced": true
             }
           },
           "imports": [
@@ -68,18 +61,23 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Project\\RND\\DotNetConceptOfTheWeek\\05_BenchmarkDotNet\\BM\\LibToBenchMark\\LibToBenchmark.csproj": {
+    "D:\\Project\\RND\\AZ Bench Mark\\Benchmark\\LibToBenchMark\\LibToBenchmark.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\RND\\DotNetConceptOfTheWeek\\05_BenchmarkDotNet\\BM\\LibToBenchMark\\LibToBenchmark.csproj",
+        "projectUniqueName": "D:\\Project\\RND\\AZ Bench Mark\\Benchmark\\LibToBenchMark\\LibToBenchmark.csproj",
         "projectName": "LibToBenchmark",
-        "projectPath": "D:\\Project\\RND\\DotNetConceptOfTheWeek\\05_BenchmarkDotNet\\BM\\LibToBenchMark\\LibToBenchmark.csproj",
+        "projectPath": "D:\\Project\\RND\\AZ Bench Mark\\Benchmark\\LibToBenchMark\\LibToBenchmark.csproj",
         "packagesPath": "C:\\Users\\abhinav.mishra\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\RND\\DotNetConceptOfTheWeek\\05_BenchmarkDotNet\\BM\\LibToBenchMark\\obj\\",
+        "outputPath": "D:\\Project\\RND\\AZ Bench Mark\\Benchmark\\LibToBenchMark\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
@@ -91,9 +89,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\New folder\\BD.Core.Analyzers": {},
+          "D:\\Project\\Drake\\Drake-Tools-GlobalLogic\\Packages": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://packagesource": {},
           "https://pkgs.dev.azure.com/danghoffman/Drake-TaxCalc-Pipeline/_packaging/Drake-Migration-Nuget-Feed/nuget/v3/index.json": {}
         },
         "frameworks": {
