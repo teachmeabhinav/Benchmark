@@ -12,10 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LibToBenchMark\LibToBenchmark.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Update="MSFT.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

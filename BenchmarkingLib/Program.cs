@@ -1,16 +1,14 @@
-﻿using System;
+﻿using BenchmarkDotNet.Attributes;
+using BenchmarkDotNet.Running;
+using LibToBenchmark;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using BenchmarkDotNet.Attributes;
-using BenchmarkDotNet.Attributes.Jobs;
-using BenchmarkDotNet.Running;
-using LibToBenchmark;
 
 namespace BenchmarkingLib
 {
-	//[CoreJob]
-	[MemoryDiagnoser]
+    //[CoreJob]
+    [MemoryDiagnoser]
 	//[DisassemblyDiagnoser(printAsm: true, printSource: true, printIL: true)]
 	public class Program
 	{
