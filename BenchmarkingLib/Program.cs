@@ -25,14 +25,14 @@ namespace BenchmarkingLib
 		}
 
 		[Benchmark]
-		public static void CalculateWithLinq()
+		public  void CalculateWithLinq()
 		{
 			var linqres = SimpleMovingAverage.CalculateSMALinq(HisticalPrices, 14);
 			Debug.WriteLine(linqres.Count);
 		}
 
 		[Benchmark]
-		public static void CalculateWithNonLinq()
+		public  void CalculateWithNonLinq()
 		{
 			var res = SimpleMovingAverage.CalculateSMA(HisticalPrices, 14);
 			Debug.WriteLine(res.Count);
